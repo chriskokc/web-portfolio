@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2C2C2C;
+  color: #FFF;
+  font-family: "Cormorant", serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.25rem 1.875rem;
+}
+nav .nav__name {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+nav .nav__name--standout {
+  color: #D9BEA5;
+}/*# sourceMappingURL=style.css.map */
