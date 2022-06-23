@@ -42,4 +42,15 @@ nav .nav__name--standout {
   font-family: "Inter", sans-serif;
   font-size: 1rem;
   line-height: 1.6rem;
+  margin-bottom: 4.6rem;
+}
+
+.portfolio .portfolio__title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.portfolio .portfolio__title-container .portfolio__big-title {
+  font-size: 2rem;
+  margin-right: 1rem;
 }

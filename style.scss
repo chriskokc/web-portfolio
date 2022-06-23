@@ -60,7 +60,7 @@ nav {
 }
 
 
-// header section
+// Header section
 
 .intro {
     .intro__big-title {
@@ -81,5 +81,25 @@ nav {
         font-family: $secondary-font;
         font-size: 1rem;
         line-height: 1.6rem;
+        margin-bottom: 4.6rem;
+    }
+}
+
+
+// Portfolio section
+
+.portfolio {
+    .portfolio__title-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .portfolio__big-title {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+
+        
+
     }
 }
