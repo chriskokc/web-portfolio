@@ -124,3 +124,26 @@ nav .nav__name--standout {
   font-size: 0.6rem;
   text-decoration: none;
 }
+
+.profile .profile__title-container .profile__title {
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  margin-top: 4.6rem;
+}
+.profile .profile__title-container .profile__hort-rule {
+  width: 2.8rem;
+  height: 2px;
+  color: #D9BEA5;
+  margin: 3px;
+}
+.profile .profile__description .profile__img {
+  width: 100%;
+  margin: 4.3rem 0;
+}
+.profile .profile__description .profile__content {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
