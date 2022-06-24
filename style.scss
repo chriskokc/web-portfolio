@@ -42,6 +42,14 @@ a:visited {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
+hr {
+    border-style: none;
+}
+
 // components
 
 // top navbar
@@ -57,6 +65,54 @@ nav {
         &--standout {
             color: $standout-color;
         }
+    }
+
+    .nav__nav-menu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        // hide the menu from our view
+        left: -100%;
+        top: 4.4rem;
+        transition: 0.3s;
+
+        .nav__nav-item {
+            margin: 1rem 0;
+
+            .nav__nav-link {
+                transition: 0.7s ease;
+            }
+
+            .nav__nav-link:hover {
+                color: $standout-color;
+            }
+
+        }
+
+        &.active {
+            // display the menu
+            left: 0;
+        }
+    }
+
+    .nav__hamburger {
+        cursor: pointer;
+
+        .nav__bar {
+            display: block;
+            width: 1.6rem;
+            height: 1px;
+            margin: 7px 0;
+            background-color: $text-color;
+
+            &--mini {
+                width: 1.1rem;
+            }
+
+        }
+
     }
 
 }
@@ -132,7 +188,7 @@ nav {
                 }
 
                 .project__hort-rule {
-                    color: $standout-color;
+                    background-color: $standout-color;
                     width: 4.1rem;
                     height: 1px;
                 }
@@ -205,7 +261,7 @@ nav {
         .profile__hort-rule {
             width: 2.8rem;
             height: 2px;
-            color: $standout-color;
+            background-color: $standout-color;
             margin: 3px;
         }
 
@@ -227,7 +283,71 @@ nav {
         }
     }
 
-    
+}
+
+
+// Skills section
+.skills {
+    .skills__template {
+
+        .skills_title-container {
+            margin: 5.3rem 0 3.3rem;
+
+            .skills__title {
+                font-weight: 700;
+                font-size: 1.5rem;
+                line-height: 2.4rem;
+            }
+
+            .skills__hort-rule {
+                width: 2.9rem;
+                height: 2px;
+                background-color: $standout-color;
+            }
+        }
+
+    }
 
 }
 
+
+// Media Queries
+
+// Tablet
+@media screen and (min-width: 768px) {
+
+    nav {
+
+        .nav__nav-menu {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5.6rem;
+        }
+
+        .nav__hamburger {
+            display: none;
+        }
+
+    }
+}
+
+// Desktop
+@media screen and (min-width: 1024px) {
+    nav {
+
+        .nav__nav-menu {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5.6rem;
+        }
+
+        .nav__hamburger {
+            display: none;
+        }
+
+    }
+
+
+}

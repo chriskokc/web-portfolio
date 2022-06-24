@@ -17,6 +17,14 @@ a:visited {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
+hr {
+  border-style: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -28,6 +36,41 @@ nav .nav__name {
 }
 nav .nav__name--standout {
   color: #D9BEA5;
+}
+nav .nav__nav-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  left: -100%;
+  top: 4.4rem;
+  transition: 0.3s;
+}
+nav .nav__nav-menu .nav__nav-item {
+  margin: 1rem 0;
+}
+nav .nav__nav-menu .nav__nav-item .nav__nav-link {
+  transition: 0.7s ease;
+}
+nav .nav__nav-menu .nav__nav-item .nav__nav-link:hover {
+  color: #D9BEA5;
+}
+nav .nav__nav-menu.active {
+  left: 0;
+}
+nav .nav__hamburger {
+  cursor: pointer;
+}
+nav .nav__hamburger .nav__bar {
+  display: block;
+  width: 1.6rem;
+  height: 1px;
+  margin: 7px 0;
+  background-color: #FFF;
+}
+nav .nav__hamburger .nav__bar--mini {
+  width: 1.1rem;
 }
 
 .intro .intro__big-title {
@@ -84,7 +127,7 @@ nav .nav__name--standout {
   line-height: 3rem;
 }
 .portfolio .project .project__description .project__title-container .project__hort-rule {
-  color: #D9BEA5;
+  background-color: #D9BEA5;
   width: 4.1rem;
   height: 1px;
 }
@@ -134,7 +177,7 @@ nav .nav__name--standout {
 .profile .profile__title-container .profile__hort-rule {
   width: 2.8rem;
   height: 2px;
-  color: #D9BEA5;
+  background-color: #D9BEA5;
   margin: 3px;
 }
 .profile .profile__description .profile__img {
@@ -146,4 +189,41 @@ nav .nav__name--standout {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.6rem;
+}
+
+.skills .skills__template .skills_title-container {
+  margin: 5.3rem 0 3.3rem;
+}
+.skills .skills__template .skills_title-container .skills__title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+.skills .skills__template .skills_title-container .skills__hort-rule {
+  width: 2.9rem;
+  height: 2px;
+  background-color: #D9BEA5;
+}
+
+@media screen and (min-width: 768px) {
+  nav .nav__nav-menu {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.6rem;
+  }
+  nav .nav__hamburger {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  nav .nav__nav-menu {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.6rem;
+  }
+  nav .nav__hamburger {
+    display: none;
+  }
 }

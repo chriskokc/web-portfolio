@@ -12,8 +12,28 @@
 <body>
     <nav>
         <a class="nav__name" href="#">CHRIS <span class="nav__name--standout">KO.</span></a>
-        <i class="fa-solid fa-grip-lines fa-2x"></i>
+        <!-- <i class="fa-solid fa-grip-lines fa-2x"></i> -->
+
+        <ul class="nav__nav-menu">
+            <li class="nav__nav-item">
+                <a class="nav__nav-link" href="#">About</a>
+            </li>
+
+            <li class="nav__nav-item">
+                <a class="nav__nav-link" href="#">Portfolio</a>
+            </li>
+
+            <li class="nav__nav-item">
+                <a class="nav__nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+
+        <div class="nav__hamburger">
+            <span class="nav__bar"></span>
+            <span class="nav__bar nav__bar--mini"></span>
+        </div>
     </nav>
+
     <header class="intro">
         <h1 class="intro__big-title">Junior Software Developer.</h1>
         <hr class="intro__hort-rule">
@@ -126,20 +146,30 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Ipsam odio voluptates sequi reprehenderit aliquam eaque fugiat, nesciunt dicta iste ratione, 
                     eligendi autem nemo vel, harum laborum doloremque tenetur excepturi enim!
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, hic consequatur? 
+                    Dolores esse enim dolorum debitis eius blanditiis vero praesentium dolor, iste, sapiente consequuntur consectetur. 
+                    Unde delectus suscipit distinctio facilis! 
                 </p>
                 <br>
                 <p class="profile__content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Aliquid sint labore, natus ad quam hic voluptates totam architecto perferendis incidunt pariatur quod 
                     quidem similique ex eius non iste maiores neque.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate excepturi laborum beatae saepe iure, 
+                    quod sequi corporis reiciendis ex incidunt natus quae. 
+                    Dolorem sint iure corporis facere, optio expedita molestiae!
                 </p>
             </div>
               
         </section>
+
         <section class="skills">
-            <div class="skills__experience">
-                <h3>EXPERENCE</h3>
-                <hr>
+            <div class="skills__template">
+                <div class="skills_title-container">
+                    <h3 class="skills__title">EXPERENCE</h3>
+                    <hr class="skills__hort-rule">
+                </div>
+                
                 <h4>Trainee Software Developer @ Nology</h4>
                 <h5>May - Aug 2022</h5>
                 <ul>
@@ -155,14 +185,20 @@
                     </li>
                 </ul>
             </div>
-            <div class="skills__interests">
-                <h3>INTERESTS</h3>
+
+            <div class="skills__template">
+                <div class="skills_title-container">
+                    <h3 class="skills__title">INTERESTS</h3>
+                    <hr class="skills__hort-rule">
+                </div>
             </div>
         </section>
+
         <section class="contact">
             <h1>Get in Touch.</h1>
             <button>CONTACT</button>
         </section>
+
     </main>
     <footer>
         <div class="footer__linkedin">
@@ -177,5 +213,6 @@
             <h5>CV</h5>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
