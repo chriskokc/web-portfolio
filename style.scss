@@ -8,6 +8,7 @@
 // background color
 $background-color: #2C2C2C;
 $container-color: #3B3636;
+$divider-color: #5C5C5C;
 
 // text color
 $text-color: #FFF;
@@ -286,24 +287,66 @@ nav {
 }
 
 
-// Skills section
-.skills {
-    .skills__template {
+// Resume section
+.resume {
+    .resume__template {
 
-        .skills_title-container {
+        .resume_title-container {
             margin: 5.3rem 0 3.3rem;
 
-            .skills__title {
+            .resume__title {
                 font-weight: 700;
                 font-size: 1.5rem;
                 line-height: 2.4rem;
             }
 
-            .skills__hort-rule {
+            .resume__hort-rule {
                 width: 2.9rem;
                 height: 2px;
                 background-color: $standout-color;
             }
+        }
+
+        .resume__row {
+
+            .resume__heading {
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.6rem;
+
+            }
+
+            .resume__dropdown-menu {
+
+                .resume__period {
+                    font-size: 0.8rem;
+                    color: $standout-color;
+                }
+
+                .resume__dropdown-list {
+
+                    .resume__dropdown-list-item {
+                        font-family: $secondary-font;
+                        font-weight: 400;
+                        font-size: 0.7rem;
+                        margin: 1rem 0;
+                    }
+
+                    .resume__dropdown-list-item::before {
+                        content: "•";
+                        color: $standout-color;
+                    }
+
+                }
+
+            }
+
+            .resume__hort-rule {
+                width: 100%;
+                height: 1px;
+                background-color: $divider-color;
+            }
+
         }
 
     }

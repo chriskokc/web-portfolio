@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap");
 * {
   margin: 0;
@@ -191,18 +192,42 @@ nav .nav__hamburger .nav__bar--mini {
   line-height: 1.6rem;
 }
 
-.skills .skills__template .skills_title-container {
+.resume .resume__template .resume_title-container {
   margin: 5.3rem 0 3.3rem;
 }
-.skills .skills__template .skills_title-container .skills__title {
+.resume .resume__template .resume_title-container .resume__title {
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 2.4rem;
 }
-.skills .skills__template .skills_title-container .skills__hort-rule {
+.resume .resume__template .resume_title-container .resume__hort-rule {
   width: 2.9rem;
   height: 2px;
   background-color: #D9BEA5;
+}
+.resume .resume__template .resume__row .resume__heading {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+.resume .resume__template .resume__row .resume__dropdown-menu .resume__period {
+  font-size: 0.8rem;
+  color: #D9BEA5;
+}
+.resume .resume__template .resume__row .resume__dropdown-menu .resume__dropdown-list .resume__dropdown-list-item {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin: 1rem 0;
+}
+.resume .resume__template .resume__row .resume__dropdown-menu .resume__dropdown-list .resume__dropdown-list-item::before {
+  content: "•";
+  color: #D9BEA5;
+}
+.resume .resume__template .resume__row .resume__hort-rule {
+  width: 100%;
+  height: 1px;
+  background-color: #5C5C5C;
 }
 
 @media screen and (min-width: 768px) {
