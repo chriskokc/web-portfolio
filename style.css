@@ -210,6 +210,8 @@ nav .nav__hamburger .nav__bar--mini {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: static;
+    width: auto;
     gap: 5.6rem;
   }
   nav .nav__hamburger {
@@ -221,6 +223,8 @@ nav .nav__hamburger .nav__bar--mini {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: static;
+    width: auto;
     gap: 5.6rem;
   }
   nav .nav__hamburger {
