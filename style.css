@@ -9,8 +9,8 @@
   font-family: "Cormorant", serif;
 }
 
-body {
-  margin: 1.25rem 1.875rem;
+header, main {
+  margin: 0 1.875rem;
 }
 
 a:link,
@@ -30,6 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 1.25rem 1.875rem;
 }
 nav .nav__name {
   font-size: 1.5rem;
@@ -269,6 +270,40 @@ nav .nav__hamburger .nav__bar--mini {
   width: 17rem;
   height: 5rem;
   cursor: pointer;
+}
+
+footer {
+  background-color: #3B3636;
+  height: 7rem;
+  margin-top: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B3636;
+  gap: 1.3rem;
+}
+footer .footer__container .footer__social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #453F3F;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+}
+footer .footer__container .footer__social-media--text {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #D9BEA5;
+}
+footer .footer__container .fa-cog {
+  color: #D9BEA5;
 }
 
 @media screen and (min-width: 768px) {
