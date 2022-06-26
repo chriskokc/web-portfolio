@@ -332,4 +332,18 @@ footer .footer__container .fa-cog {
   nav .nav__hamburger {
     display: none;
   }
+
+  #intro .intro__big-title {
+    font-size: 8rem;
+    margin-top: 5.2rem;
+    line-height: 1.2rem;
+  }
+  #intro .intro__hort-rule {
+    height: 0.4rem;
+    margin: 1.7rem 0;
+  }
+  #intro .intro__description {
+    font-size: 1.3rem;
+    margin-bottom: 6.9rem;
+  }
 }

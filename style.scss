@@ -455,7 +455,9 @@ footer {
     header, main {
         margin: 9rem;
     }
-    
+
+    // top navbar
+
     nav {
         margin: 4.1rem 9rem;
 
@@ -484,4 +486,27 @@ footer {
         }
 
     }
+
+
+    // header section
+
+    #intro {
+
+        .intro__big-title {
+            font-size: 8rem;
+            margin-top: 5.2rem;
+            line-height: 1.2rem;
+        }
+    
+        .intro__hort-rule {
+            height: 0.4rem;
+            margin: 1.7rem 0;
+        }
+    
+        .intro__description {
+            font-size: 1.3rem;
+            margin-bottom: 6.9rem;
+        }
+    }
+
 }
