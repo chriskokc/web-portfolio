@@ -220,6 +220,7 @@ nav .nav__hamburger .nav__bar--mini {
 }
 #resume .resume__template .resume__row .resume__toggle-button::after {
   content: "+";
+  font-size: 2rem;
   float: right;
 }
 #resume .resume__template .resume__row .resume__toggle-button.active::after {
@@ -244,10 +245,11 @@ nav .nav__hamburger .nav__bar--mini {
   content: "•";
   color: #D9BEA5;
 }
-#resume .resume__template .resume__hort-rule {
+#resume .resume__template .resume__divider {
   width: 100%;
   height: 1px;
   background-color: #5C5C5C;
+  margin: 1.3rem 0;
 }
 
 @media screen and (min-width: 768px) {
