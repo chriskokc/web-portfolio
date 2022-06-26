@@ -309,14 +309,39 @@ nav {
 
         .resume__row {
 
-            .resume__heading {
+            .resume__toggle-button {
                 font-weight: 400;
                 font-size: 1rem;
                 line-height: 1.6rem;
+                width: 100%;
+                border: none;
+                text-align: left;
 
+                cursor: pointer;
+                transition: 0.3s;
+
+                &:hover {
+                    color: $standout-color;
+                }
+
+                // add a plus button
+                &::after {
+                    content: "\002B";
+                    float: right;
+                }
+
+                // switch to a minus button after a click event
+                &.active::after {
+                    content: "\2212";
+                }
             }
+            
 
             .resume__dropdown-menu {
+                // to make an animated slide dowm
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease-out;
 
                 .resume__period {
                     font-size: 0.8rem;
@@ -341,12 +366,12 @@ nav {
 
             }
 
-            .resume__hort-rule {
-                width: 100%;
-                height: 1px;
-                background-color: $divider-color;
-            }
+        }
 
+        .resume__hort-rule {
+            width: 100%;
+            height: 1px;
+            background-color: $divider-color;
         }
 
     }

@@ -205,10 +205,30 @@ nav .nav__hamburger .nav__bar--mini {
   height: 2px;
   background-color: #D9BEA5;
 }
-.resume .resume__template .resume__row .resume__heading {
+.resume .resume__template .resume__row .resume__toggle-button {
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.6rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.resume .resume__template .resume__row .resume__toggle-button:hover {
+  color: #D9BEA5;
+}
+.resume .resume__template .resume__row .resume__toggle-button::after {
+  content: "+";
+  float: right;
+}
+.resume .resume__template .resume__row .resume__toggle-button.active::after {
+  content: "−";
+}
+.resume .resume__template .resume__row .resume__dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
 }
 .resume .resume__template .resume__row .resume__dropdown-menu .resume__period {
   font-size: 0.8rem;
@@ -224,7 +244,7 @@ nav .nav__hamburger .nav__bar--mini {
   content: "•";
   color: #D9BEA5;
 }
-.resume .resume__template .resume__row .resume__hort-rule {
+.resume .resume__template .resume__hort-rule {
   width: 100%;
   height: 1px;
   background-color: #5C5C5C;
