@@ -53,6 +53,7 @@ nav .nav__nav-menu .nav__nav-item {
   margin: 1rem 0;
 }
 nav .nav__nav-menu .nav__nav-item .nav__nav-link {
+  font-family: "Inter", sans-serif;
   transition: 0.7s ease;
 }
 nav .nav__nav-menu .nav__nav-item .nav__nav-link:hover {
@@ -307,6 +308,16 @@ footer .footer__container .fa-cog {
 }
 
 @media screen and (min-width: 768px) {
+  header, main {
+    margin: 9rem;
+  }
+
+  nav {
+    margin: 4.1rem 9rem;
+  }
+  nav .nav__name {
+    font-size: 3rem;
+  }
   nav .nav__nav-menu {
     flex-direction: row;
     justify-content: space-between;
@@ -315,18 +326,8 @@ footer .footer__container .fa-cog {
     width: auto;
     gap: 5.6rem;
   }
-  nav .nav__hamburger {
-    display: none;
-  }
-}
-@media screen and (min-width: 1024px) {
-  nav .nav__nav-menu {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: static;
-    width: auto;
-    gap: 5.6rem;
+  nav .nav__nav-menu .nav__nav-item .nav_nav-link {
+    font-size: 1.3rem;
   }
   nav .nav__hamburger {
     display: none;

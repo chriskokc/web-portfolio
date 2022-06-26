@@ -85,6 +85,7 @@ nav {
             margin: 1rem 0;
 
             .nav__nav-link {
+                font-family: $secondary-font;
                 transition: 0.7s ease;
             }
 
@@ -448,10 +449,19 @@ footer {
 
 // Media Queries
 
-// Tablet
+// Tablet and Desktop
 @media screen and (min-width: 768px) {
 
+    header, main {
+        margin: 9rem;
+    }
+    
     nav {
+        margin: 4.1rem 9rem;
+
+        .nav__name {
+            font-size: 3rem;
+        }
 
         .nav__nav-menu {
             flex-direction: row;
@@ -460,6 +470,13 @@ footer {
             position: static;
             width: auto;
             gap: 5.6rem;
+
+            .nav__nav-item {
+
+                .nav_nav-link {
+                    font-size: 1.3rem;
+                }
+            }
         }
 
         .nav__hamburger {
@@ -467,27 +484,4 @@ footer {
         }
 
     }
-}
-
-
-// Desktop
-@media screen and (min-width: 1024px) {
-    nav {
-
-        .nav__nav-menu {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            position: static;
-            width: auto;
-            gap: 5.6rem;
-        }
-
-        .nav__hamburger {
-            display: none;
-        }
-
-    }
-
-
 }
