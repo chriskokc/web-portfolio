@@ -110,7 +110,7 @@ nav {
 
             &--mini {
                 width: 1.1rem;
-            }
+            } 
 
         }
 
@@ -121,7 +121,7 @@ nav {
 
 // Header section
 
-.intro {
+#intro {
     .intro__big-title {
         font-size: 5rem;
         font-weight: 400;
@@ -147,7 +147,7 @@ nav {
 
 // Portfolio section
 
-.portfolio {
+#portfolio {
     .portfolio__title-container {
         display: flex;
         justify-content: flex-start;
@@ -248,7 +248,7 @@ nav {
 
 // Profile section
 
-.profile {
+#profile {
 
     .profile__title-container {
 
@@ -288,7 +288,7 @@ nav {
 
 
 // Resume section
-.resume {
+#resume {
     .resume__template {
 
         .resume_title-container {
