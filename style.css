@@ -309,11 +309,11 @@ footer .footer__container .fa-cog {
 
 @media screen and (min-width: 768px) {
   header, main {
-    margin: 9rem;
+    margin: 0 7rem;
   }
 
   nav {
-    margin: 4.1rem 9rem;
+    margin: 4.1rem 7rem;
   }
   nav .nav__name {
     font-size: 3rem;
@@ -336,14 +336,21 @@ footer .footer__container .fa-cog {
   #intro .intro__big-title {
     font-size: 8rem;
     margin-top: 5.2rem;
-    line-height: 1.2rem;
+    line-height: 9.6rem;
   }
   #intro .intro__hort-rule {
     height: 0.4rem;
-    margin: 1.7rem 0;
+    margin: 1.7rem 0 2.3rem;
   }
   #intro .intro__description {
     font-size: 1.3rem;
+    width: 38rem;
+    line-height: 2rem;
     margin-bottom: 6.9rem;
+  }
+
+  #portfolio .portfolio__title-container .portfolio__big-title {
+    font-size: 4rem;
+    margin-right: 2rem;
   }
 }
