@@ -170,11 +170,14 @@ nav {
             display: flex;
             flex-direction: column;
 
-            .project__img {
-                width: 100%;
-                height: 12rem;
-                background-color: $container-color;
+            .project__img-container {
+                height: 14rem;
                 margin-top: 3rem;
+
+                .project_pic {
+                    width: 100%;
+                    height: 100%
+                }
             }
 
             .project__description {
@@ -544,8 +547,7 @@ footer {
             .project {
                 flex-grow: 2;
 
-                .project__img {
-                    height: 16.6rem;
+                .project__img-container {
                     margin-top: 9rem;
                 }
 

@@ -14,7 +14,7 @@ hamburger.addEventListener("click", function() {
 // menu disappear when a click on nav links is detected
 for (let i = 0; i < navLinks.length; i++) {
     // detach each nav link to an Event Listener
-    navLinks[i].addEventListener("click", function() {
+    navLinks[i].addEventListener("click", () => {
         navMenu.classList.remove("active");
     });
 }

@@ -108,11 +108,13 @@ nav .nav__hamburger .nav__bar--mini {
   display: flex;
   flex-direction: column;
 }
-#portfolio .portfolio__container .project .project__img {
-  width: 100%;
-  height: 12rem;
-  background-color: #3B3636;
+#portfolio .portfolio__container .project .project__img-container {
+  height: 14rem;
   margin-top: 3rem;
+}
+#portfolio .portfolio__container .project .project__img-container .project_pic {
+  width: 100%;
+  height: 100%;
 }
 #portfolio .portfolio__container .project .project__description {
   display: flex;
@@ -367,8 +369,7 @@ footer .footer__container .fa-cog {
   #portfolio .portfolio__container .project {
     flex-grow: 2;
   }
-  #portfolio .portfolio__container .project .project__img {
-    height: 16.6rem;
+  #portfolio .portfolio__container .project .project__img-container {
     margin-top: 9rem;
   }
   #portfolio .portfolio__container .project .project__description {
