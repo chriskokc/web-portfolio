@@ -453,4 +453,8 @@ footer .footer__container .fa-cog {
     width: 20rem;
     height: 5rem;
   }
+
+  footer .footer__container {
+    gap: 3rem;
+  }
 }

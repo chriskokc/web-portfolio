@@ -692,12 +692,16 @@ footer {
             width: 20rem;
             height: 5rem;
         }
-}
+    }
 
+    // Footer section
+    footer {
+ 
+        .footer__container {
+            gap: 3rem;
+        }
+        
+    }
 
-
-
-
-    
 
 }
