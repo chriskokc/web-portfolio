@@ -402,9 +402,7 @@ footer .footer__container .fa-cog {
     width: 7rem;
     height: 2px;
     background-color: #D9BEA5;
-    margin: 3px;
-    grid-column: 1/2;
-    grid-row: 2/3;
+    margin: 2rem 0;
   }
   #profile .profile__img-container {
     grid-column: 2/3;
