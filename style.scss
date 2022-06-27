@@ -274,12 +274,15 @@ nav {
 
     }
 
-    .profile__description {
-
+    .profile__img-container {
         .profile__img {
             width: 100%;
+            height: 20%;
             margin: 4.3rem 0;
         }
+    }
+
+    .profile__description {
 
         .profile__content {
             font-family: $secondary-font;
@@ -576,7 +579,7 @@ footer {
     #profile {
 
         .profile__title-container {
-    
+            
             .profile__title {
                 font-size: 4rem;
                 margin-top: 20rem;
@@ -590,13 +593,16 @@ footer {
             }
     
         }
-    
-        .profile__description {
-    
+
+        .profile__img-container {
             .profile__img {
                 width: 100%;
+                height: 20%;
                 margin: 4.3rem 0;
             }
+        }
+    
+        .profile__description {
     
             .profile__content {
                 font-family: $secondary-font;

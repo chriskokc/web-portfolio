@@ -183,8 +183,9 @@ nav .nav__hamburger .nav__bar--mini {
   background-color: #D9BEA5;
   margin: 3px;
 }
-#profile .profile__description .profile__img {
+#profile .profile__img-container .profile__img {
   width: 100%;
+  height: 20%;
   margin: 4.3rem 0;
 }
 #profile .profile__description .profile__content {
@@ -386,8 +387,9 @@ footer .footer__container .fa-cog {
     background-color: #D9BEA5;
     margin: 3px;
   }
-  #profile .profile__description .profile__img {
+  #profile .profile__img-container .profile__img {
     width: 100%;
+    height: 20%;
     margin: 4.3rem 0;
   }
   #profile .profile__description .profile__content {
