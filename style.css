@@ -183,6 +183,9 @@ nav .nav__hamburger .nav__bar--mini {
   background-color: #D9BEA5;
   margin: 3px;
 }
+#profile .profile__img-container {
+  margin-top: 4.3rem;
+}
 #profile .profile__img-container .profile__img {
   width: 100%;
 }
@@ -405,6 +408,7 @@ footer .footer__container .fa-cog {
   #profile .profile__img-container {
     grid-column: 2/3;
     grid-row: 1/4;
+    margin-top: 0;
   }
   #profile .profile__img-container .profile__img {
     -o-object-fit: cover;
@@ -421,5 +425,23 @@ footer .footer__container .fa-cog {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.6rem;
+  }
+
+  #resume {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+  #resume .resume__template .resume__title-container .resume__title {
+    font-size: 2rem;
+  }
+  #resume .resume__template .resume__row .resume__toggle-button {
+    font-size: 1.3rem;
+  }
+  #resume .resume__template .resume__row .resume__dropdown-menu .resume__period {
+    font-size: 1.1rem;
+  }
+  #resume .resume__template .resume__row .resume__dropdown-menu .resume__dropdown-list .resume__dropdown-list-item {
+    font-size: 1rem;
   }
 }

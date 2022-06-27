@@ -275,6 +275,8 @@ nav {
     }
 
     .profile__img-container {
+        margin-top: 4.3rem;
+
         .profile__img {
             width: 100%;
         }
@@ -609,11 +611,13 @@ footer {
 
             grid-column: 2 / 3;
             grid-row: 1 / 4;
+            margin-top: 0;
             
             .profile__img {
                 object-fit: cover;
                 max-width: 80%;
                 height: 100%;
+                
             }
         }
     
@@ -632,6 +636,50 @@ footer {
         }
     
     }
+
+    // Resume section
+    #resume {
+        display: flex;
+        justify-content: space-between;
+        gap: 4rem;
+
+        .resume__template {
+
+            .resume__title-container {
+
+                .resume__title {
+
+                    font-size: 2rem;
+                }
+            }
+
+            .resume__row {
+
+                .resume__toggle-button {
+                    font-size: 1.3rem;
+                }
+
+                .resume__dropdown-menu {
+
+                    .resume__period {
+                        font-size: 1.1rem;
+                    }
+
+                    .resume__dropdown-list {
+
+                        .resume__dropdown-list-item {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+
+
+            }
+        }
+
+    }
+
+    
 
 
 
