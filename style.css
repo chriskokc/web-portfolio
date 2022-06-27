@@ -372,4 +372,28 @@ footer .footer__container .fa-cog {
   #portfolio .portfolio__container .project .project__description .project__title-container .project__title {
     font-size: 2.6rem;
   }
+  #portfolio .portfolio__container .project .project__description .project__title-container .project__hort-rule {
+    margin: 1rem 0;
+  }
+
+  #profile .profile__title-container .profile__title {
+    font-size: 4rem;
+    margin-top: 20rem;
+  }
+  #profile .profile__title-container .profile__hort-rule {
+    width: 2.8rem;
+    height: 2px;
+    background-color: #D9BEA5;
+    margin: 3px;
+  }
+  #profile .profile__description .profile__img {
+    width: 100%;
+    margin: 4.3rem 0;
+  }
+  #profile .profile__description .profile__content {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
 }
