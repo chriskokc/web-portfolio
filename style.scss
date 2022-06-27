@@ -531,14 +531,30 @@ footer {
         .portfolio__container {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
             gap: 1rem;
             
 
             .project {
                 flex-grow: 2;
+
                 .project__img {
                     height: 16.6rem;
                     margin-top: 9rem;
+                }
+
+                .project__description {
+                    
+                    margin: 0.3rem 0;
+
+                    .project__title-container {
+
+                        .project__title {
+                            font-size: 2.6rem;
+                        }
+
+                    }
+
                 }
     
     

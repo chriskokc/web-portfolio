@@ -356,6 +356,7 @@ footer .footer__container .fa-cog {
   #portfolio .portfolio__container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 1rem;
   }
   #portfolio .portfolio__container .project {
@@ -364,5 +365,11 @@ footer .footer__container .fa-cog {
   #portfolio .portfolio__container .project .project__img {
     height: 16.6rem;
     margin-top: 9rem;
+  }
+  #portfolio .portfolio__container .project .project__description {
+    margin: 0.3rem 0;
+  }
+  #portfolio .portfolio__container .project .project__description .project__title-container .project__title {
+    font-size: 2.6rem;
   }
 }
