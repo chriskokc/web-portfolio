@@ -104,43 +104,43 @@ nav .nav__hamburger .nav__bar--mini {
   font-size: 2rem;
   margin-right: 1rem;
 }
-#portfolio .project {
+#portfolio .portfolio__container .project {
   display: flex;
   flex-direction: column;
 }
-#portfolio .project .project__img {
+#portfolio .portfolio__container .project .project__img {
   width: 100%;
   height: 12rem;
   background-color: #3B3636;
   margin-top: 3rem;
 }
-#portfolio .project .project__description {
+#portfolio .portfolio__container .project .project__description {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0.9rem 0;
 }
-#portfolio .project .project__description .project__title-container {
+#portfolio .portfolio__container .project .project__description .project__title-container {
   display: flex;
   flex-direction: column;
 }
-#portfolio .project .project__description .project__title-container .project__title {
+#portfolio .portfolio__container .project .project__description .project__title-container .project__title {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 3rem;
 }
-#portfolio .project .project__description .project__title-container .project__hort-rule {
+#portfolio .portfolio__container .project .project__description .project__title-container .project__hort-rule {
   background-color: #D9BEA5;
   width: 4.1rem;
   height: 1px;
 }
-#portfolio .project .project__description .project-details-container {
+#portfolio .portfolio__container .project .project__description .project-details-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 6.5rem;
 }
-#portfolio .project .project__description .project-details-container .project__circle-item {
+#portfolio .portfolio__container .project .project__description .project-details-container .project__circle-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -149,16 +149,16 @@ nav .nav__hamburger .nav__bar--mini {
   background-color: #3B3636;
   border-radius: 50%;
 }
-#portfolio .project .project__knowledge {
+#portfolio .portfolio__container .project .project__knowledge {
   display: flex;
   justify-content: flex-start;
 }
-#portfolio .project .project__knowledge .project__tag-container {
+#portfolio .portfolio__container .project .project__knowledge .project__tag-container {
   display: flex;
   justify-content: space-between;
   width: 9.2rem;
 }
-#portfolio .project .project__knowledge .project__tag-container .project__tag-item {
+#portfolio .portfolio__container .project .project__knowledge .project__tag-container .project__tag-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,5 +352,17 @@ footer .footer__container .fa-cog {
   #portfolio .portfolio__title-container .portfolio__big-title {
     font-size: 4rem;
     margin-right: 2rem;
+  }
+  #portfolio .portfolio__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  #portfolio .portfolio__container .project {
+    flex-grow: 2;
+  }
+  #portfolio .portfolio__container .project .project__img {
+    height: 16.6rem;
+    margin-top: 9rem;
   }
 }
