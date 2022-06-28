@@ -16,7 +16,7 @@ I built my webpage following this sequence: structure, styling and then JavaScri
 For the portfolio part, I applied Flexbox to layout my projects, and they can wrap to different sizes when the screen changes from desktop, tablet to mobile.
 
 
-<img width="900" height="600 alt="portfolio" src="https://user-images.githubusercontent.com/87203804/176224362-05f306e7-5639-43e0-a626-1a6ae39953ce.png">
+<img width="900" height="600" alt="portfolio" src="https://user-images.githubusercontent.com/87203804/176224362-05f306e7-5639-43e0-a626-1a6ae39953ce.png">
 
 For the profile section, I used the Grid layout system in my media queries, and the profile image can stretch to the right on a tablet and desktop view. 
 
