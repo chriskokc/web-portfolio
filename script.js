@@ -7,7 +7,7 @@ let dropdownMenu = document.querySelectorAll(".resume__dropdown-menu");
 // hamburger
 // attach hamburger to an Event Listener
 // menu shows up when a click on hamburger is detected
-hamburger.addEventListener("click", function() {
+hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 });
 
@@ -27,7 +27,7 @@ window.onscroll = function() {
 // dropdown menu
 for (let i = 0; i < toggleBtn.length; i++) {
     toggleBtn[i].addEventListener("click", function() {
-        // toggle between adding and removing the "show" class 
+        // toggle between adding and removing the "active" class 
         // to switch between the plus and minus button
         this.classList.toggle("active");
 
