@@ -25,8 +25,9 @@ For the profile section, I used the Grid layout system in my media queries, and 
 
 Some online resources like W3School and stackoverflow have been used a reference to implement the dropdown menu functionaly in the resume section:
                                                                                                                                            
-                                                                                                                                           <img width="1000" alt="toggle" src="https://user-images.githubusercontent.com/87203804/176225319-db6d11a7-d126-475d-893e-ff39d318883e.png">
                                                                                                                                            
+<img width="1000" alt="toggle" src="https://user-images.githubusercontent.com/87203804/176226438-7df8d5aa-6a5a-4dc6-840b-40937399725f.png">
+                                                                                                
 
 Font Awesome icons have been used for displaying the social media links in the footer.
 
