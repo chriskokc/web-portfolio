@@ -413,6 +413,10 @@ nav {
         width: 17rem;
         height: 5rem;
         cursor: pointer;
+
+        &:hover {
+            background-color: $standout-color;
+        }
     }
 }
 

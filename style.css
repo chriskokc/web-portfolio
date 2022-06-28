@@ -279,6 +279,9 @@ nav .nav__hamburger .nav__bar--mini {
   height: 5rem;
   cursor: pointer;
 }
+#contact .contact__button:hover {
+  background-color: #D9BEA5;
+}
 
 footer {
   background-color: #3B3636;
