@@ -1,6 +1,7 @@
 # Welcome to Chris Ko's Web Portfolio
 
-This is my personal webpage showing my coding projects' portfolio. 
+This is my personal webpage showing my coding projects' portfolio: 
+https://chriskokc.github.io/web-portfolio/
 
 
 
