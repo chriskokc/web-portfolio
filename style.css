@@ -321,7 +321,6 @@ footer .footer__container .fa-cog {
   header, main {
     margin: 0 3.5rem;
   }
-
   nav {
     margin: 4.1rem 3.5rem;
   }
@@ -342,7 +341,6 @@ footer .footer__container .fa-cog {
   nav .nav__hamburger {
     display: none;
   }
-
   #intro .intro__big-title {
     font-size: 6.5rem;
     margin-top: 5.2rem;
@@ -358,7 +356,6 @@ footer .footer__container .fa-cog {
     line-height: 2rem;
     margin-bottom: 6.9rem;
   }
-
   #portfolio .portfolio__title-container .portfolio__big-title {
     font-size: 3.5rem;
     margin-right: 2rem;
@@ -384,7 +381,6 @@ footer .footer__container .fa-cog {
   #portfolio .portfolio__container .project .project__description .project__title-container .project__hort-rule {
     margin: 1rem 0;
   }
-
   #profile {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -428,7 +424,6 @@ footer .footer__container .fa-cog {
     font-size: 1rem;
     line-height: 1.6rem;
   }
-
   #resume {
     display: flex;
     justify-content: space-between;
@@ -446,7 +441,6 @@ footer .footer__container .fa-cog {
   #resume .resume__template .resume__row .resume__dropdown-menu .resume__dropdown-list .resume__dropdown-list-item {
     font-size: 1rem;
   }
-
   #contact .contact__title {
     font-size: 6rem;
   }
@@ -455,7 +449,6 @@ footer .footer__container .fa-cog {
     width: 20rem;
     height: 5rem;
   }
-
   footer .footer__container {
     gap: 3rem;
   }
@@ -464,7 +457,6 @@ footer .footer__container .fa-cog {
   header, main {
     margin: 0 7rem;
   }
-
   nav {
     margin: 4.1rem 7rem;
   }
@@ -485,7 +477,6 @@ footer .footer__container .fa-cog {
   nav .nav__hamburger {
     display: none;
   }
-
   #intro .intro__big-title {
     font-size: 8rem;
     margin-top: 5.2rem;
@@ -501,7 +492,6 @@ footer .footer__container .fa-cog {
     line-height: 2rem;
     margin-bottom: 6.9rem;
   }
-
   #portfolio .portfolio__title-container .portfolio__big-title {
     font-size: 4rem;
     margin-right: 2rem;
@@ -527,7 +517,6 @@ footer .footer__container .fa-cog {
   #portfolio .portfolio__container .project .project__description .project__title-container .project__hort-rule {
     margin: 1rem 0;
   }
-
   #profile {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -571,7 +560,6 @@ footer .footer__container .fa-cog {
     font-size: 1rem;
     line-height: 1.6rem;
   }
-
   #resume {
     display: flex;
     justify-content: space-between;
@@ -589,7 +577,6 @@ footer .footer__container .fa-cog {
   #resume .resume__template .resume__row .resume__dropdown-menu .resume__dropdown-list .resume__dropdown-list-item {
     font-size: 1rem;
   }
-
   #contact .contact__title {
     font-size: 8rem;
   }
@@ -598,7 +585,6 @@ footer .footer__container .fa-cog {
     width: 20rem;
     height: 5rem;
   }
-
   footer .footer__container {
     gap: 3rem;
   }
