@@ -1,0 +1,46 @@
+@use "./variables" as *;
+
+// Profile section
+
+#profile {
+
+    .profile__title-container {
+
+        .profile__title {
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 3.2rem;
+            margin-top: 4.6rem;
+        }
+
+        .profile__hort-rule {
+            width: 2.8rem;
+            height: 2px;
+            background-color: $standout-color;
+            margin: 3px;
+        }
+
+    }
+
+    .profile__img-container {
+        margin-top: 4.3rem;
+
+        .profile__img {
+            width: 100%;
+        }
+    }
+
+    .profile__description {
+
+        margin-top: 3rem;
+
+        .profile__content {
+            font-family: $secondary-font;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.6rem;
+
+        }
+    }
+
+}

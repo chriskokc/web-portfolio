@@ -1,0 +1,35 @@
+@use "./variables" as *;
+
+// import Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@400;700&family=Inter&display=swap');
+
+
+// tag selector
+
+* {
+    // CSS RESET
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // APPLY TO ALL
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $primary-font;
+}
+
+header, main {
+    margin: 0 1.875rem;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    border-style: none;
+}

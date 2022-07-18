@@ -1,0 +1,94 @@
+@use "./variables" as *;
+
+// Resume section
+#resume {
+    .resume__template {
+
+        .resume_title-container {
+            margin: 5.3rem 0 3.3rem;
+
+            .resume__title {
+                font-weight: 700;
+                font-size: 1.5rem;
+                line-height: 2.4rem;
+            }
+
+            .resume__hort-rule {
+                width: 2.9rem;
+                height: 2px;
+                background-color: $standout-color;
+            }
+        }
+
+        .resume__row {
+
+            .resume__toggle-button {
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1.6rem;
+                width: 100%;
+                border: none;
+                text-align: left;
+
+                cursor: pointer;
+                transition: 0.3s;
+
+                &:hover {
+                    color: $standout-color;
+                }
+
+                // add a plus button
+                &::after {
+                    content: "\002B";
+                    font-size: 2rem;
+                    float: right;
+                }
+
+                // switch to a minus button after a click event
+                &.active::after {
+                    content: "\2212";
+                }
+            }
+            
+
+            .resume__dropdown-menu {
+                // to make an animated slide dowm
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease-out;
+
+                .resume__period {
+                    font-size: 0.8rem;
+                    color: $standout-color;
+                }
+
+                .resume__dropdown-list {
+
+                    .resume__dropdown-list-item {
+                        font-family: $secondary-font;
+                        font-weight: 400;
+                        font-size: 0.7rem;
+                        margin: 1rem 0;
+                    }
+
+                    .resume__dropdown-list-item::before {
+                        content: "•";
+                        color: $standout-color;
+                    }
+
+                }
+
+            }
+
+        }
+
+        .resume__divider {
+            width: 100%;
+            height: 1px;
+            background-color: $divider-color;
+            margin: 1.3rem 0;
+        }
+
+    }
+
+}

@@ -1,0 +1,68 @@
+@use "./variables" as *;
+
+// top navbar
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.25rem 1.875rem;
+
+    .nav__name {
+        font-size: 1.5rem;
+        font-weight: 700;
+
+        &--standout {
+            color: $standout-color;
+        }
+    }
+
+    .nav__nav-menu {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        // hide the menu from our view
+        left: -100%;
+        top: 4.4rem;
+        transition: 0.3s;
+
+        .nav__nav-item {
+            margin: 1rem 0;
+
+            .nav__nav-link {
+                font-family: $secondary-font;
+                transition: 0.7s ease;
+            }
+
+            .nav__nav-link:hover {
+                color: $standout-color;
+            }
+
+        }
+
+        &.active {
+            // display the menu
+            left: 0;
+        }
+    }
+
+    .nav__hamburger {
+        cursor: pointer;
+
+        .nav__bar {
+            display: block;
+            width: 1.6rem;
+            height: 1px;
+            margin: 7px 0;
+            background-color: $text-color;
+
+            &--mini {
+                width: 1.1rem;
+            } 
+
+        }
+
+    }
+
+}

@@ -1,0 +1,107 @@
+@use "./variables" as *;
+
+// Portfolio section
+
+#portfolio {
+    .portfolio__title-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .portfolio__big-title {
+            font-size: 2rem;
+            margin-right: 1rem;
+        }
+
+    }
+
+    .portfolio__container {
+
+        // individual project
+        .project {
+            display: flex;
+            flex-direction: column;
+
+            .project__img-container {
+                height: 14rem;
+                margin-top: 3rem;
+
+                .project_pic {
+                    width: 100%;
+                    height: 100%
+                }
+            }
+
+            .project__description {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 0.9rem 0;
+
+                .project__title-container {
+                    display: flex;
+                    flex-direction: column;
+
+                    .project__title {
+                        font-size: 1.8rem;
+                        font-weight: 400;
+                        line-height: 3rem;
+                    }
+
+                    .project__hort-rule {
+                        background-color: $standout-color;
+                        width: 4.1rem;
+                        height: 1px;
+                    }
+                }
+
+                .project-details-container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 6.5rem;
+
+                    .project__circle-item {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 2.8rem;
+                        height: 2.8rem;
+                        background-color: $container-color;
+                        border-radius: 50%;
+
+                    }
+
+                }
+
+            }
+
+            .project__knowledge {
+                display: flex;
+                justify-content: flex-start;
+
+                .project__tag-container {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 9.2rem;
+        
+                    .project__tag-item {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 4.1rem;
+                        height: 1.3rem;
+                        background-color: $container-color;
+                        font-family: $secondary-font;
+                        font-weight: 600;
+                        font-size: 0.6rem;
+                        text-decoration: none;
+                    }
+        
+                }
+            }
+
+            
+        }
+    }
+}
