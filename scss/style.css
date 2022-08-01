@@ -365,10 +365,11 @@ nav .nav__hamburger .nav__bar--mini {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 0.7rem;
+    gap: 1rem 1.5rem;
   }
   #portfolio .portfolio__container .project {
     flex-grow: 2;
+    width: 45%;
   }
   #portfolio .portfolio__container .project .project__img-container {
     margin-top: 9rem;

@@ -74,19 +74,17 @@
                 font-size: 3.5rem;
                 margin-right: 2rem;
             }
-
-    
         }
 
         .portfolio__container {
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
-            gap: 0.7rem;
+            gap: 1rem 1.5rem;
             
-
             .project {
                 flex-grow: 2;
+                width: 45%;
 
                 .project__img-container {
                     margin-top: 9rem;
@@ -319,7 +317,6 @@
                 font-size: 4rem;
                 margin-right: 2rem;
             }
-
     
         }
 
