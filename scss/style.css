@@ -325,7 +325,7 @@ nav .nav__hamburger .nav__bar--mini {
     margin: 4.1rem 3.5rem;
   }
   nav .nav__name {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
   nav .nav__nav-menu {
     display: flex;
@@ -334,9 +334,9 @@ nav .nav__hamburger .nav__bar--mini {
     align-items: center;
     position: static;
     width: auto;
-    gap: 4.6rem;
+    gap: 4rem;
   }
-  nav .nav__nav-menu .nav__nav-item .nav_nav-link {
+  nav .nav__nav-menu .nav__nav-item {
     font-size: 1.3rem;
   }
   nav .nav__hamburger {
@@ -470,10 +470,10 @@ nav .nav__hamburger .nav__bar--mini {
     align-items: center;
     position: static;
     width: auto;
-    gap: 5.6rem;
+    gap: 5.5rem;
   }
-  nav .nav__nav-menu .nav__nav-item .nav_nav-link {
-    font-size: 1.3rem;
+  nav .nav__nav-menu .nav__nav-item {
+    font-size: 1.5rem;
   }
   nav .nav__hamburger {
     display: none;
