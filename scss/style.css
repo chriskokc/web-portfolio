@@ -36,8 +36,11 @@ hr {
   margin: 7.3rem 4rem;
 }
 #contact .contact__button {
+  display: block;
+  margin: 0 auto;
   font-family: "Inter", sans-serif;
   font-size: 1.1rem;
+  padding: 1.7rem 1.5rem;
   border: 1px solid #D9BEA5;
   text-align: center;
   width: 17rem;
@@ -447,7 +450,7 @@ nav .nav__hamburger .nav__bar--mini {
     font-size: 6rem;
   }
   #contact .contact__button {
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 20rem;
     height: 5rem;
   }
@@ -583,9 +586,10 @@ nav .nav__hamburger .nav__bar--mini {
     font-size: 8rem;
   }
   #contact .contact__button {
+    padding: 1.8rem;
     font-size: 1.5rem;
     width: 20rem;
-    height: 5rem;
+    height: 5.5rem;
   }
   footer .footer__container {
     gap: 3rem;

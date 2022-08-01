@@ -120,7 +120,6 @@
     // # Profile section
 
     #profile {
-        
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 10% 30% 40%;
@@ -147,7 +146,6 @@
         }
 
         .profile__img-container {
-
             grid-column: 2 / 3;
             grid-row: 1 / 4;
             margin-top: 0;
@@ -161,7 +159,6 @@
         }
     
         .profile__description {
-
             grid-column: 1 / 2;
             grid-row: 2 / 5;
     
@@ -227,7 +224,7 @@
         }
 
         .contact__button {
-            font-size: 1.5rem;
+            font-size: 2rem;
             width: 20rem;
             height: 5rem;
         }
@@ -471,9 +468,10 @@
         }
 
         .contact__button {
+            padding: 1.8rem;
             font-size: 1.5rem;
             width: 20rem;
-            height: 5rem;
+            height: 5.5rem;
         }
     }
 
