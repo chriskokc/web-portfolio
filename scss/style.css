@@ -386,6 +386,14 @@ nav .nav__hamburger .nav__bar--mini {
   #portfolio .portfolio__container .project .project__description .project__title-container .project__hort-rule {
     margin: 1rem 0;
   }
+  #portfolio .portfolio__container .project .project__knowledge .project__tag-container {
+    width: 10rem;
+  }
+  #portfolio .portfolio__container .project .project__knowledge .project__tag-container .project__tag-item {
+    width: 4.5rem;
+    height: 1.5rem;
+    font-size: 0.7rem;
+  }
   #profile {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -521,6 +529,14 @@ nav .nav__hamburger .nav__bar--mini {
   }
   #portfolio .portfolio__container .project .project__description .project__title-container .project__hort-rule {
     margin: 1rem 0;
+  }
+  #portfolio .portfolio__container .project .project__knowledge .project__tag-container {
+    width: 11rem;
+  }
+  #portfolio .portfolio__container .project .project__knowledge .project__tag-container .project__tag-item {
+    width: 5rem;
+    height: 1.6rem;
+    font-size: 0.8rem;
   }
   #profile {
     display: grid;

@@ -107,13 +107,25 @@
                     }
 
                 }
+
+                .project__knowledge {
+
+                    .project__tag-container {
+                        width: 10rem;
+
+                        .project__tag-item {
+                            width: 4.5rem;
+                            height: 1.5rem;
+                            font-size: 0.7rem;
+                        }
+            
+                    }
+                }
     
     
             }
             
         }
-
-        
 
     }
 
@@ -239,8 +251,6 @@
         
     }
 
-
-
 }
 
 
@@ -346,10 +356,23 @@
                         }
 
                     }
-
+                
                 }
     
-    
+                .project__knowledge {
+
+                    .project__tag-container {
+                        width: 11rem;
+
+                        .project__tag-item {
+                            width: 5rem;
+                            height: 1.6rem;
+                            font-size: 0.8rem;
+                        }
+            
+                    }
+                }
+
             }
             
         }
